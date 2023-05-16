@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Header = (props) => {
+  const { course } = props;
 
-  return (
-      <h1>{props.course.name}</h1>
-  );
+  return <h1>{course.name}</h1>;
 };
 
 export default Header;
